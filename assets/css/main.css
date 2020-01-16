@@ -2606,7 +2606,11 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+		.image.rightspecial {
+			max-width: 20%;
+		}
+
+			.image.left img, .image.right img, .image.rightspecial img {
 				width: 100%;
 			}
 
@@ -2622,6 +2626,11 @@ input, select, textarea {
 			top: 0.75rem;
 		}
 
+		.image.rightspecial {
+			float: right;
+			margin: 0 0 2rem 2rem;
+			top: 0.75rem;
+		}
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
