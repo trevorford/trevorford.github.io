@@ -2597,7 +2597,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-
+	
 		.image img {
 			display: block;
 		}
@@ -2607,7 +2607,7 @@ input, select, textarea {
 		}
 
 		.image.rightspecial {
-			max-width: 20%;
+			max-width: 25%;
 		}
 
 			.image.left img, .image.right img, .image.rightspecial img {
